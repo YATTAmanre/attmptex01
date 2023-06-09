@@ -3,6 +3,11 @@
 
 int main(){
     int d1,d2;
+    char name[1000];
+
+    printf("What is your name?\n");
+    scanf("%s", name);
+    printf("Hello, %s!\n");
 
     printf("Rolling dice....\n");
     d1 = rand()%6 + 1;
